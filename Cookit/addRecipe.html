@@ -1,5 +1,3 @@
-<html>
-
 <head>
     <meta charset="UTF-8">
     <title>Blog - Food</title>
@@ -45,37 +43,45 @@
                     <div>
                         <div>
                             <h3>Add Recipe</h3>
+                            
 
-                            <div class="row">
-                                <div class="column left">
+                            <div>
+                               <div style = "margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right:50px;
+    margin-left: -50px">
                                     Add Photo:
                                     <form action="/action_page.php"> <input type="file" name="image" value="fileupload" id="fileupload"> <label for="fileupload"> <br><br>
-    Prep time:<input type="text" name="prepTim" value=" " style="width: 50px"><br><br>
-    Cook time:<input type="text" name="cookTim" value=" " style="width: 50px"><br><br>
+    Prep time:<input type="time" name="prep_time"><br><br>
+    Cook time:<input type="time" name="cook_time"><br><br>
     Ready in:<input type="text" name="redyTim" value=" " style="width: 50px"><br><br>
-    Number of servings:<input type="text" name="numServ" value=" " style="width: 50px">
+    Number of servings:<input type="text" name="num_serving" value=" " style="width: 50px">
   </div>
   
   
   
   
-  <div class="column right">
+  <div style = "margin-top: -300px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 200px">
     <form action="/action_page.php">
+    
   Recipe Title:<br>
   <input type="text" name="title" value=" ">
   <br><br>
   Description:<br>
-  <input type="text" name="descrip" value=" " style="width: 500px; height: 200px;">
+  <input type="text" name="description" value=" " style="width: 400px; height: 200px;">
   <br><br>
    Ingredients:<br>
-  <input type="text" name="ingre" value=" " style="width: 500px; height: 100px;">
+  <input type="text" name="ingredient" value=" " style="width: 400px; height: 100px;">
   <br><br>
   Directions:<br>
-  <input type="text" name="direct" value=" " style="width: 500px; height: 100px;">
+  <input type="text" name="directions" value=" " style="width: 400px; height: 100px;">
   <br><br>
   <input type="radio" name="recipePrivacy" value="Priavte" checked> Private Recipe - only I can see this <br>
   <input type="radio" name="recipePrivacy" value="Public"> Public Recipe - anyone who views my profile can see this<br>
-  <input type="radio" name="recipePrivacy" value="Public T&C"> "Public and submit this as a kitchen approved by agreeing to Terms & Conditions" <br><br>
+  <input type="radio" name="recipePrivacy" value="Public T&C"> Public and submit this as a kitchen approved by agreeing to Terms & Conditions <br><br>
   
   <input type="submit" value="Submit">
 </form> 
